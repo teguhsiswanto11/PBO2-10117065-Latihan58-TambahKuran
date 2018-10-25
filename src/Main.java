@@ -10,8 +10,9 @@
 public class Main {
     public static void main(String[] args) {
         JumlahBilangan jumlahBil = new JumlahBilangan();
-        jumlahBil.tampilHasilJumlah();
         SelisihBilangan selisihBil = new SelisihBilangan();
+
+        jumlahBil.tampilHasilJumlah();
         selisihBil.tampilHasilSelisih();
     }
 }
